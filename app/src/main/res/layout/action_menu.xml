@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/action_menu_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/color_sky"
+    tools:context="com.mac.qqcopy.MainFragment">
+    <!--android:background="@drawable/black_background"> //設定背景為黑色-->
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/btn_avatar"
+        android:paddingRight="80dp"
+        android:src="@drawable/qqpenguin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:background="@color/color_sky"/>
+    <TextView
+        android:id="@+id/action_right"
+        android:drawableLeft="@drawable/crown"
+        android:text="@string/right_to_inform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <!--显示的文本比视图小时，横向和纵向的对齐方式.显示的文本比视图小时，横向和纵向的对齐方式.-->
+    <TextView
+        android:id="@+id/action_purse"
+        android:drawableLeft="@drawable/purse"
+        android:text="@string/qq_purse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/action_decoration"
+        android:drawableLeft="@drawable/color_palette"
+        android:text="@string/decoration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/action_collection"
+        android:drawableLeft="@drawable/star"
+        android:text="@string/collection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/action_album"
+        android:drawableLeft="@drawable/picture"
+        android:text="@string/album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <!-- android:gravity="center_horizontal"沒效果-->
+
+    <TextView
+        android:id="@+id/action_files"
+        android:drawableLeft="@drawable/folder"
+        android:text="@string/files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/action_namecard"
+        android:drawableLeft="@drawable/id_card"
+        android:text="@string/name_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/action_settings"
+        android:drawableLeft="@drawable/wheel_silhouette"
+        android:text="@string/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/action_nighttheme"
+        android:drawableLeft="@drawable/moon"
+        android:text="@string/night_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

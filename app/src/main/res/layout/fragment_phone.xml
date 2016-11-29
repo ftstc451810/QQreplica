@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--background-->
+    <!--版面整理: cmd+shift+F-->
+
+    <LinearLayout
+        android:id="@+id/ly_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="180dp"
+            android:background="@color/color_white" />
+
+
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="180dp"
+            android:layout_toRightOf="@id/iv_left"
+            android:background="@color/color_white" />
+
+
+    </LinearLayout>
+    <!--為了使用weight讓兩個imageview寬佔滿各半-->
+    <ImageView
+        android:id="@+id/iv_phonepage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/smartphone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/iv_phonepage"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/phone_page" />
+    <ImageView
+        android:id="@+id/iv_dedicatedcall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/smartphone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/iv_dedicatedcall"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dedicated_call" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_front"
+        android:layout_margin="10dp"
+        android:text="@string/call_histroy"
+        android:textColor="@color/color_brightgray"
+        android:textSize="12dp" />
+
+    <!--下方區域-->
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/tv1"
+        android:background="@color/color_white" />
+    <!--以下這些包含defaultQQ電話畫面＋通話紀錄結果-->
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/earth" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/QQphone"
+        android:textColor="@color/color_brightblue"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/my_button"
+        android:onClick="findToChat"
+        android:text="@string/find_chat"
+        android:textColor="@color/color_brightblue"
+        android:textSize="18dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:visibility="invisible"></ListView>
+</RelativeLayout>

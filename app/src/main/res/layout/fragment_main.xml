@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mac.qqcopy.MainFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_sky"
+        android:id="@+id/iv_topbarback"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.sevenheaven.segmentcontrol.SegmentControl
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segment_control"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        app:block_direction="horizon"
+        app:normalColor="@color/color_sky"
+        app:selectedColor="#FFFFFF"
+        app:cornerRadius="5dp"
+        app:separatorWidth="1dp"
+        app:boundWidth="1dp"
+        app:texts= "消息|电话"
+        app:verticalGap="10dp"
+        app:horizonGap="20dp" />
+
+
+    <TextView
+        android:id="@+id/tv_message_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:textSize="40dp"
+        android:textColor="@color/color_white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/btn_start_search"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="@string/search"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/color_brightgray"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/magnifying_glass"
+        android:drawablePadding="3dp"
+        android:layout_below="@+id/iv_topbarback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_shape"
+        />
+<!--style="?android:attr/borderlessButtonStyle"使按鈕沒有預設的陰影-->
+
+    <FrameLayout
+        android:id="@+id/id_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="66dp"
+        android:layout_below="@id/btn_start_search"
+        />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

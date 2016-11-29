@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_page"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.mac.qqcopy.SearchActivity">
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:layout_marginBottom="10dp"
+        >
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="@string/search"
+            android:textColorHint="@color/color_brightgray"
+
+            android:imeOptions="actionSearch"
+
+            android:drawableLeft="@drawable/magnifying_glass"
+            android:drawablePadding="3dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_shape"
+            android:layout_marginTop="20dp"
+
+           />
+        <!-- android:focusable="true" android:focusableInTouchMode="true" 顯示鍵盤but沒效果-->
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:text="@string/cancel"
+            android:textColor="@color/color_blue"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/et_search"
+            android:layout_marginTop="15dp"
+            android:background="@color/color_white"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_delete"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/cancel"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/et_search"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible"/>
+        <!--android:ems="15"  指定輸入字數(就會決定edittext的寬度)-->
+        <!--android:visibility="invisible"一開始就看不到了-->
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_origin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/search_bar"
+        android:text="@string/search_hint"
+        android:textColor="@color/color_brightgray"
+        android:textSize="20dp"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/list_result"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_bar"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

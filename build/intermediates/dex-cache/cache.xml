@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_0416b50b93aae330a9f8347bd218b8e576a6c5d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d06e2d85d7759368299d78bbc38999b05c5a208c">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_963a4c085e192a59c60a9a75642f5485c8632692/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_4092dcbc9d2a5435c102cad88b70cde5fc06e934/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5d72e2004ae9361c7d602f0efc044ba746f0c024/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_780f74fef982b492da2cccfcfa0cf0aa17813624/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_83b4f4133cfaa995caca350cf08cda993b4e28a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_d04c4dc2df180c5667187af69427f44246617f6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_81b8b9dc3ad55e57cc9301b741cf63defc6402ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_e4e374ec7cdd3e3d2ea38720845cf986a1867533/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_65bfbc9b498f3d5508e9831749bcbeea1a131422/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_a3779163f30f161c31093cb7115233f315f64bb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_8d7432c08238d9dfee20d37a4240b14c28bd6399/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_b17e304b6cf7ad3de986a1ba7fb7b0e89c5b50d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_0b7d0b63650000f4eddfa00e2ca78ca8ca3db634/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_40b05b7784cdfb926b5c2128508e4e80716d83c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_a86da7274a6e02f1f459076588f248ab0bae55e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/exploded-aar/com.7heaven.widgets/segmentcontrol/1.16/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="50cd06185b3a947e3bed506318d23f80b3ec34fd">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.7heaven.widgets-segmentcontrol-1.16_0c93479e1f2089ae673cec50793a58e49bf8646a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e660c9173a8a27b9ee295274ccd39ba46001d0d">
+        <dex dex="/Users/mac/AndroidStudioProjects/QQCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1660dd7516de2f78f59ef7920b4891566946e69f/classes.dex" />
+    </item>
+
+</items>

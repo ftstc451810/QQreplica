@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">QQCopy</string>
+    <string name="message">消息</string>
+    <string name="plus">+</string>
+    <string name="phone">电话</string>
+    <string name="search">搜索</string>
+
+    <string name="contact">联系人</string>
+    <string name="add">添加</string>
+    <string name="new_friend">新朋友</string>
+    <string name="group_chat">群聊</string>
+    <string name="public_channel">公众号</string>
+    <string name="care">特别关心</string>
+    <string name="usual_chat">常用群聊</string>
+    <string name="good_friend">我的好友</string>
+    <string name="phone_book">手机通讯录</string>
+    <string name="device">我的设备</string>
+    <string name="pc">我的电脑</string>
+    <string name="find_device">发现新设备</string>
+
+    <string name="instant_state">动态</string>
+    <string name="more">更多</string>
+    <string name="search_variety">搜索电影/音乐/商品...</string>
+
+
+    <string name="morning">上午</string>
+    <string name="afternoon">下午</string>
+    <string name="avatar">大头贴</string>
+    <string name="right_to_inform">了解会员特权</string>
+    <string name="qq_purse">QQ钱包</string>
+    <string name="decoration">个性装扮</string>
+    <string name="collection">我的收藏</string>
+    <string name="album">我的相册</string>
+    <string name="files">我的文件</string>
+    <string name="name_card">我的名片夹</string>
+    <string name="settings">设置</string>
+    <string name="night_theme">夜间</string>
+    <string name="cancel">取消</string>
+    <string name="search_hint">搜索更多内容</string>
+    <string name="phone_page">电话黄页</string>
+    <string name="dedicated_call">专线电话</string>
+    <string name="call_histroy">通话记录</string>
+    <string name="QQphone">他们都在用QQ电话哦</string>
+    <string name="find_chat">找人聊聊</string>
+    <string name="welcome_slogon">QQ拉近您与世界的距离</string>
+    <string name="login">登录</string>
+    <string name="signup">注册</string>
+    <string name="account">您的账号</string>
+    <string name="password">您的密码</string>
+    <string name="forget">忘记密码</string>
+    <string name="welcome_signup">QQ誠心歡迎您的光臨</string>
+    <string name="your_phone">您的手机</string>
+    <string name="name">您的名字</string>
+    <string name="new_account">您的账号</string>
+    <string name="new_password">您的密码</string>
+    <string name="again_password">再次输入您的密码</string>
+    <string name="check">密码不一致</string>
+    <string name="confirm">确认</string>
+
+
+</resources>

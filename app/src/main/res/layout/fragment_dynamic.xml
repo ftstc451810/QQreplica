@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_sky"
+        android:id="@+id/iv_topbarback"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+    <TextView
+        android:id="@+id/tv_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/instant_state"
+        android:textSize="20dp"
+        android:textColor="@color/color_white"
+        android:layout_marginTop="13dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_dynamic_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/more"
+        android:textSize="16dp"
+        android:textColor="@color/color_white"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/my_button"
+        />
+
+    <Button
+        android:id="@+id/btn_start_search"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="@string/search_variety"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/color_brightgray"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/magnifying_glass"
+        android:drawablePadding="3dp"
+        android:layout_below="@+id/iv_topbarback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_shape"
+        />
+
+
+
+</RelativeLayout>

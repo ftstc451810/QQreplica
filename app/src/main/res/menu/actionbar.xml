@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_start_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/qqpenguin"
+        app:showAsAction="always"
+        android:title="@string/avatar"
+        />
+    <!--android:orderInCategory="100" //不知要幹啥...-->
+    <!--此物無法認證為button-->
+
+</menu>
